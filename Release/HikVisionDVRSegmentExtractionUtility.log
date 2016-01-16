@@ -1,0 +1,54 @@
+﻿Build started 09-Aug-14 1:43:39 PM.
+     1>Project "C:\Users\developeracer\Documents\Visual Studio 2010\Projects\HikVisionDVRSegmentExtractionUtility\HikVisionDVRSegmentExtractionUtility.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\HikVisionDVRSegmentExtractionUtility.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\HikVisionDVRSegmentExtractionUtility.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt FileIO.cpp HikVisionDVRSegmentExtractionUtility.cpp Login.cpp /clr:nostdlib 
+         FileIO.cpp
+     1>c:\users\developeracer\documents\visual studio 2010\projects\hikvisiondvrsegmentextractionutility\FormMain.h(1175): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\developeracer\documents\visual studio 2010\projects\hikvisiondvrsegmentextractionutility\FormMain.h(1223): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451) : see declaration of '_itoa'
+     1>FileIO.cpp(38): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>FileIO.cpp(46): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         HikVisionDVRSegmentExtractionUtility.cpp
+     1>c:\users\developeracer\documents\visual studio 2010\projects\hikvisiondvrsegmentextractionutility\FormMain.h(1175): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\developeracer\documents\visual studio 2010\projects\hikvisiondvrsegmentextractionutility\FormMain.h(1223): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451) : see declaration of '_itoa'
+         Login.cpp
+     1>c:\users\developeracer\documents\visual studio 2010\projects\hikvisiondvrsegmentextractionutility\FormMain.h(1175): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451) : see declaration of '_itoa'
+     1>c:\users\developeracer\documents\visual studio 2010\projects\hikvisiondvrsegmentextractionutility\FormMain.h(1223): warning C4996: '_itoa': This function or variable may be unsafe. Consider using _itoa_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(451) : see declaration of '_itoa'
+     1>Login.cpp(40): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+         All outputs are up-to-date.
+       CoreResGen:
+         "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile FormMain.resx,Release\HikVisionDVRSegmentExtractionUtility.FormMain.resources
+         Processing resource file "FormMain.resx" into "Release\HikVisionDVRSegmentExtractionUtility.FormMain.resources".
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\HikVisionDVRSegmentExtractionUtility.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\HikVisionDVRSegmentExtractionUtility.FormMain.resources /MANIFEST /ManifestFile:"Release\HikVisionDVRSegmentExtractionUtility.exe.intermediate.manifest" /MANIFESTUAC:"level='highestAvailable' uiAccess='false'" /DEBUG /PDB:"C:\Users\developeracer\Documents\Visual Studio 2010\Projects\HikVisionDVRSegmentExtractionUtility\Release\HikVisionDVRSegmentExtractionUtility.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\Database.obj
+         Release\FileIO.obj
+         Release\HikVisionDVRSegmentExtractionUtility.obj
+         Release\Login.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         HikVisionDVRSegmentExtractionUtility.vcxproj -> C:\Users\developeracer\Documents\Visual Studio 2010\Projects\HikVisionDVRSegmentExtractionUtility\Release\HikVisionDVRSegmentExtractionUtility.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\HikVisionDVRSegmentExtractionUtility.exe;#1" /manifest Release\HikVisionDVRSegmentExtractionUtility.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\HikVisionDVRSegmentExtractionUtility.unsuccessfulbuild".
+         Touching "Release\HikVisionDVRSegmentExtractionUtility.lastbuildstate".
+     1>Done Building Project "C:\Users\developeracer\Documents\Visual Studio 2010\Projects\HikVisionDVRSegmentExtractionUtility\HikVisionDVRSegmentExtractionUtility.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.20
